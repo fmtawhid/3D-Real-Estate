@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101a17">
+  <title>Estate | Discover Exceptional Living</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="#story" class="brand">ESTATE<span>.</span></a>
+    <nav>
+      <a href="#story">Explore</a>
+      <a href="mailto:hello@example.com" class="nav-cta">Contact Us</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="story" class="scroll-story">
+      <div class="sticky-stage">
+        <video
+          id="propertyVideo"
+          class="property-video"
+          preload="auto"
+          muted
+          playsinline
+          disablepictureinpicture
+        >
+          <source src="assets/property-tour.mp4" type="video/mp4">
+        </video>
+
+        <div class="video-shade"></div>
+
+        <div class="video-topline">
+          <span>THE RESIDENCE</span>
+          <span id="progressLabel">01 / 04</span>
+        </div>
+
+        <div class="scene-card" id="sceneCard">
+          <p class="eyebrow" id="sceneEyebrow">01 — A NEW STANDARD OF LIVING</p>
+          <h2 id="sceneTitle">Find a place<br>to call extraordinary.</h2>
+          <p id="sceneDescription">
+            Discover thoughtfully designed spaces where comfort meets timeless architecture.
+          </p>
+          <a href="mailto:hello@example.com" class="outline-button">
+            Enquire about this property <span>↗</span>
+          </a>
+        </div>
+
+        <div class="scroll-indicator">
+          <span class="scroll-line"></span>
+          <span>SCROLL TO EXPLORE</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
